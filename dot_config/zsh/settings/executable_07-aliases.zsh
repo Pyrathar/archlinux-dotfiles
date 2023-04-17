@@ -35,6 +35,20 @@ pr() {
 	fi
 }
 
+ghp() { 
+  case ${1} in
+      -p | --private)
+          export GH_CONFIG_DIR="$HOME/.config/gh/private"
+          ;;
+      -w | --work)
+	  	  unset GH_CONFIG_DIR
+          ;;
+      *)
+	      gh auth status
+		  ;;
+  esac
+}
+
 # Helps quickly search in $PATH to validate if folder is available
 check-path() { 
   if [[ "$#" -eq 0 ]]; then
