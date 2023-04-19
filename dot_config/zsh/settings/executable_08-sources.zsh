@@ -25,11 +25,11 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 
 # Set up lazy loading for Python-related completions:
 ## PyEnv
-znap function _pyenv pyenv              'eval "$( pyenv init - --no-rehash )"'
+znap function _pyenv pyenv        'eval "$( pyenv init - --no-rehash )"'
 compctl -K    _pyenv pyenv
 
 ## pip
-znap function _pip_completion pip       'eval "$( pip completion --zsh )"'
+znap function _pip_completion pip 'eval "$( pip completion --zsh )"'
 compctl -K    _pip_completion pip
 
 ## pipx

@@ -30,11 +30,11 @@ export BROWSER="wslview"
 
 # Fast Node Manager settings
 # fnm completions --shell zsh > ~/.local/share/zsh/site-functions/_fnm
-export FNM_VERSION_FILE_STRATEGY="local"
-export FNM_DIR=$HOME/.local/share/fnm
-export FNM_LOGLEVEL="info"
-export FNM_NODE_DIST_MIRROR="https://nodejs.org/dist"
-export FNM_ARCH="x64"
+#export FNM_VERSION_FILE_STRATEGY="local"
+#export FNM_DIR=$HOME/.local/share/fnm
+#export FNM_LOGLEVEL="info"
+#export FNM_NODE_DIST_MIRROR="https://nodejs.org/dist"
+#export FNM_ARCH="x64"
 
 # CA Settings
 local ca_path=~/.config/ca_certificates/cacert.pem
