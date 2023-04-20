@@ -9,6 +9,7 @@ local -a plugins=(
     zsh-users/zsh-autosuggestions                 # Inline suggestions
     zdharma-continuum/fast-syntax-highlighting    # Command-line syntax highlighting
     MichaelAquilina/zsh-you-should-use            # Suggest command aliases
+    MichaelAquilina/zsh-autoswitch-virtualenv     # Augomatically enable Python environments
     DevExUtils/aws-utils-zsh                      # AWS profile selector and utilites
     Bhupesh-V/ugit                                # Undo git actions
     wfxr/forgit                                   # Git FZF interactions and aliases

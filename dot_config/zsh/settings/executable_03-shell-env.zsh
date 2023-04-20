@@ -39,6 +39,7 @@ export AWS_CA_BUNDLE=$ca_path
 # FZF settings
 export FZF_DEFAULT_COMMAND='fd --type f'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_DEFAULT_OPTS="--layout=reverse --border"
 
 # XDG Basedir settings
 ## Base dir settings for applications to use.
@@ -59,7 +60,7 @@ export GOPATH="$XDG_DATA_HOME"/go
 export NUGET_PACKAGES="$XDG_CACHE_HOME"/NuGetPackages
 
 ## NPM
-export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/.npmrc
+export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
 
 ## Docker
 export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker

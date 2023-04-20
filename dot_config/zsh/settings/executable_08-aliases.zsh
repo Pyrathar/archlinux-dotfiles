@@ -17,3 +17,26 @@ alias pip="python -m pip"
 
 # wget default save file in data folder instead of home
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
+
+# Chezmoi
+alias cm="chezmoi"
+alias cmr="chezmoi re-add"
+alias cmj="cd $HOME/.local/share/chezmoi"
+
+# Git
+# See ugit and forgit for fzf enabled git commands
+alias gcm='git commit --message'
+
+# Terraform
+alias tf="terraform"
+alias tfa="terraform apply -auto-approve"
+alias tfaa="terraform apply -auto-approve"
+
+# Kubectl
+alias k="kubectl"
+
+# VSCode
+alias c="code ."
+
+# Open directory in Windows Explorer
+alias exp="explorer.exe ."

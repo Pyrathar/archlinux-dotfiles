@@ -40,3 +40,11 @@ check-path() {
     echo -e ${PATH//:/\\n} | fzf -q ${1} --select-1 --exit-0 --header='Directories matching search word in PATH'
   fi
 }
+
+bootstrap-python() {
+  if [ ! -f ./.python-version ]; then
+    echo ".python-version file not found"
+    echo "Select python version to install"
+    exit 1
+fi
+}
