@@ -1,23 +1,5 @@
 #!/bin/zsh
 
-# Aliases
-
-# File related commands
-alias cat="bat -p"
-
-# Exa
-alias l="exa --long --header --all --sort type --git"
-alias ls="exa --long --header --all --sort type --git --group"
-
-# Zoxide
-alias j="__zoxide_zi"
-
-# Python
-alias pip="python -m pip"
-
-# wget default save file in data folder instead of home
-alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
-
 # FZF Paru 
 ##  Search and install packages with fzf
 pi() { 
@@ -27,7 +9,7 @@ pi() {
 	fi
 }
 
-## Search and remove packages with fzf
+## Search and remove installed packages with fzf
 pr() { 
 	SELECTED_PKGS="$(paru -Qsq | fzf --header='Remove packages' -m --preview 'paru -Si {1}')"
 	if [ -n "$SELECTED_PKGS" ]; then
@@ -35,6 +17,7 @@ pr() {
 	fi
 }
 
+# Change Github CLI profile 
 ghp() { 
   case ${1} in
       -p | --private)

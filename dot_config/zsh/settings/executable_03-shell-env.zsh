@@ -29,12 +29,7 @@ export VISUAL="code"
 export BROWSER="wslview"
 
 # Fast Node Manager settings
-# fnm completions --shell zsh > ~/.local/share/zsh/site-functions/_fnm
-#export FNM_VERSION_FILE_STRATEGY="local"
-#export FNM_DIR=$HOME/.local/share/fnm
-#export FNM_LOGLEVEL="info"
-#export FNM_NODE_DIST_MIRROR="https://nodejs.org/dist"
-#export FNM_ARCH="x64"
+export FNM_DIR=$HOME/.local/share/fnm
 
 # CA Settings
 local ca_path=~/.config/ca_certificates/cacert.pem
@@ -49,6 +44,7 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 ## Base dir settings for applications to use.
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_DATA_HOME=$HOME/.local/share
+export XDG_CACHE_HOME=$HOME/.cache
 
 ## PyEnv
 export PYENV_ROOT=$XDG_DATA_HOME/pyenv
