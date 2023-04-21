@@ -30,12 +30,12 @@ export BROWSER="wslview"
 
 # Fast Node Manager settings
 export FNM_DIR=$HOME/.local/share/fnm
-
+{{ if .work_device }}
 # CA Settings
 local ca_path=~/.config/ca_certificates/cacert.pem
 export NODE_EXTRA_CA_CERTS=$ca_path
 export AWS_CA_BUNDLE=$ca_path
-
+{{ end }}
 # FZF settings
 export FZF_DEFAULT_COMMAND='fd --type f'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"

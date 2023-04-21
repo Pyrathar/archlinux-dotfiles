@@ -21,7 +21,7 @@ alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
 # Chezmoi
 alias cm="chezmoi"
 alias cmr="chezmoi re-add"
-alias cmj="cd $HOME/.local/share/chezmoi"
+alias cmj="cd $(chezmoi source-path)"
 
 # Git
 # See ugit and forgit for fzf enabled git commands

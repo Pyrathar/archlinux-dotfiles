@@ -1,6 +1,5 @@
 #!/bin/zsh
 
-##
 # Shell options that don't fit in any other file.
 # Set these after sourcing plugins, because those might set options, too.
 
