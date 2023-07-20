@@ -9,7 +9,7 @@
 
 {{ $email := promptString "email" -}}
 {{ $name := promptString "name" -}}
-{{- $work_device = promptBool "work_device" -}}
+{{- $work_device := promptBool "work_device" -}}
 
 [data]
   email = {{ $email | quote }}
