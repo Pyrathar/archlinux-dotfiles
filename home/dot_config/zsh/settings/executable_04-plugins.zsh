@@ -5,7 +5,6 @@
 ## Add plugins to array in the format of github user / repository name
 local -a plugins=(
     Aloxaf/fzf-tab                                # Use FZF for auto-completion
-    marlonrichert/zsh-edit                        # Better keyboard shortcuts
     zsh-users/zsh-autosuggestions                 # Inline suggestions
     zdharma-continuum/fast-syntax-highlighting    # Command-line syntax highlighting
     MichaelAquilina/zsh-you-should-use            # Suggest command aliases
