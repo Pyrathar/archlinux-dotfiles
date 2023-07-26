@@ -10,20 +10,10 @@
 eval "$(zoxide init zsh --cmd j --no-aliases)"
 
 # Setup Fast Node Manager auto change on CD
-# eval "$(fnm env --use-on-cd)"
+eval "$(rtx activate zsh)"
 
 # Use Starship prompt with znap eval cashing
-#znap eval starship 'starship init zsh'
 eval "$(starship init zsh)"
-
-# Setup PyEnv
-export PYENV_ROOT="$XDG_CONFIG_HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-
-# Set up lazy loading for Python-related completions:
-## PyEnv
-znap function _pyenv pyenv       'eval "$( pyenv init - --no-rehash )"'
-compctl -K    _pyenv pyenv
 
 ## pip
 znap function _pip_completion pip 'eval "$( pip completion --zsh )"'
