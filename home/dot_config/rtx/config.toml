@@ -1,0 +1,21 @@
+[tools]
+# global versions of tools
+# installed with "rtx install --install-missing"
+node = 'lts'
+python = '3.11'
+
+[settings]
+# plugins can read the versions files used by other version managers (if enabled by the plugin)
+# for example, .nvmrc in the case of node's nvm
+legacy_version_file = true          # enabled by default (unlike asdf)
+
+# configure `rtx install` to always keep the downloaded archive
+always_keep_download = false        # deleted after install by default
+always_keep_install = false         # deleted on failure by default
+
+verbose = false     # set to true to see full installation output, see `RTX_VERBOSE`
+asdf_compat = false # set to true to ensure .tool-versions will be compatible with asdf, see `RTX_ASDF_COMPAT`
+jobs = 4            # number of plugins or runtimes to install in parallel. The default is `4`.
+raw = false         # set to true to directly pipe plugins to stdin/stdout/stderr`
+
+experimental = false # enable experimental features
