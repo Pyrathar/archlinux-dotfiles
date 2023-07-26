@@ -11,7 +11,10 @@ Currently supports configuration and installation on:
 
 Content:
 
-[[_TOC_]]
+- [Setup](#setup)
+  - [Prerequisits](#prerequisits)
+  - [Installation 🚀](#installation-)
+    - [Troubleshooting](#troubleshooting)
 
 
 # Setup
