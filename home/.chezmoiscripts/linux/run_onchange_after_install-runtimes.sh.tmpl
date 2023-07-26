@@ -1,0 +1,24 @@
+#!/bin/bash
+
+set -eufo pipefail
+
+# XDG Basedir settings
+## Base dir settings for applications to use.
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_DATA_HOME=$HOME/.local/share
+export XDG_CACHE_HOME=$HOME/.cache
+
+# Install runtimes defined in ~/.config/rtx/config.toml with rtx
+rtx install --install-missing
+
+# Install node/ts tools
+export PNPM_HOME="$XDG_DATA_HOME"/pnpm
+export PATH=$(pnpm bin --global):$PATH
+pnpm add -g typescript
+pnpm add -g aws-cdk
+
+# Install pipx and python tools
+pipx install poetry 
+pipx install cfn-lint
+pipx install pre-commit
+pipx install aws-sso-util

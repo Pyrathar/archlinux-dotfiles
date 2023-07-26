@@ -38,6 +38,7 @@ DEVELOPER_TOOLS=(
     "npm"
     "neovim"
     "onefetch"
+    "rtx-bin"
 )
 
 PACKAGES=("${BASE_TOOLS[@]}" "${CLOUD_TOOLS[@]}" "${DEVELOPER_TOOLS[@]}")
