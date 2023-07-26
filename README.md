@@ -7,7 +7,7 @@ Currently supports configuration and installation on:
 
 - [macOS Ventura][macOS] or later
 - [ArchLinux][ArchLinux]
-- [Ubuntu][Ubuntu] (SoonTM)
+- [Ubuntu][Ubuntu] :soon:
 
 Content:
 
@@ -15,6 +15,8 @@ Content:
   - [Prerequisits](#prerequisits)
   - [Installation 🚀](#installation-)
     - [Troubleshooting](#troubleshooting)
+- [Supported toolset 🛠️](#supported-toolset-️)
+  - [🐚 Shell](#-shell)
 
 
 # Setup
@@ -45,7 +47,30 @@ This will prompt you to enter:
 
 cat-config
 
+# Supported toolset 🛠️
 
+Use either one or many of these, the config files will be in place and ready to provide a familiar interface.
+
+## 🐚 Shell
+
+
+:penguin:
+:apple:
+:computer:
+:question:
+:zap:
+:globe_with_meridians:
+:octocat:
+:mortar_board:
+:movie_camera:
+:mag:
+:hammer:
+:scroll:
+:telescope:
+:clipboard:
+:book:
+:warning:
+:window:
 
 [macOS]: https://www.apple.com/macos/ventura/
 [ArchLinux]: https://archlinux.org/
