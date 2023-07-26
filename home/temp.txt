@@ -1,0 +1,7 @@
+nodejs
+npm
+pnpm
+
+python
+python-pipx
+pyenv
