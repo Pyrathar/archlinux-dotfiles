@@ -39,6 +39,7 @@ DEVELOPER_TOOLS=(
     "neovim"
     "onefetch"
     "rtx-bin"
+    "python-pipx"
 )
 
 PACKAGES=("${BASE_TOOLS[@]}" "${CLOUD_TOOLS[@]}" "${DEVELOPER_TOOLS[@]}")
