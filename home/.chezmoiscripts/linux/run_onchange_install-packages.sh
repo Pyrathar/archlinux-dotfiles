@@ -3,7 +3,7 @@
 declare -a BASE_TOOLS
 BASE_TOOLS=(
     "bat"
-    "exa"
+    "eza"
     "fd"
     "fzf"
     "git-delta"
