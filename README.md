@@ -42,6 +42,14 @@ This will prompt you to enter:
 * **name**: used for gitconfig
 * **work_device**: used to setup corporate certificates in zsh config
 
+```bash
+chezmoi init https://github.com/DevExUtils/archlinux-dotfiles.git \
+--promptString "email"="$EMAIL" \
+--promptString "name"="$NAME" \
+--promptBool "work_device"="false" --apply
+```
+
+
 ### Troubleshooting 
 
 
