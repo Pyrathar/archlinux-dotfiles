@@ -13,7 +13,7 @@ rtx install --install-missing
 
 # Install node/ts tools
 export PNPM_HOME="$XDG_DATA_HOME"/pnpm
-export PATH=$(pnpm bin --global):$PATH
+export PATH=$PNPM_HOME:$PATH
 pnpm add -g typescript
 pnpm add -g aws-cdk
 
