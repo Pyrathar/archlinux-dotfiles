@@ -5,7 +5,7 @@
 # File related commands
 alias cat="bat -p"
 
-# Exa
+# Eza
 alias l="eza --long --header --all --sort type --git"
 alias ls="eza --long --header --all --sort type --git --group"
 
