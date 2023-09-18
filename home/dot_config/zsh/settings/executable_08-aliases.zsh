@@ -6,8 +6,8 @@
 alias cat="bat -p"
 
 # Exa
-alias l="exa --long --header --all --sort type --git"
-alias ls="exa --long --header --all --sort type --git --group"
+alias l="eza --long --header --all --sort type --git"
+alias ls="eza --long --header --all --sort type --git --group"
 
 # Zoxide
 alias j="__zoxide_zi"
