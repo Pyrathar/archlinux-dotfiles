@@ -1,4 +1,3 @@
-
 # Check modules and install if not present
 if (Get-Module -ListAvailable -Name PSFzf) {
     Import-Module -Name PSFzf
