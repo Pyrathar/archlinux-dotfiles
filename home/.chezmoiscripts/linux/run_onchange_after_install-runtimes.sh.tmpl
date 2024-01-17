@@ -9,7 +9,7 @@ export XDG_DATA_HOME=$HOME/.local/share
 export XDG_CACHE_HOME=$HOME/.cache
 
 # Install runtimes defined in ~/.config/rtx/config.toml with rtx
-rtx install --install-missing
+rtx install - --install-missing
 
 # Install node/ts tools
 export PNPM_HOME="$XDG_DATA_HOME"/pnpm
