@@ -38,7 +38,7 @@ DEVELOPER_TOOLS=(
     "npm"
     "neovim"
     "onefetch"
-    "mice"
+    "mise"
     "python-pipx"
 )
 
