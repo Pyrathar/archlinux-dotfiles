@@ -10,7 +10,7 @@
 eval "$(zoxide init zsh --cmd j --no-aliases)"
 
 # Setup Fast Node Manager auto change on CD
-eval "$(rtx activate zsh)"
+eval "$(mise activate zsh)"
 
 # Use Starship prompt with znap eval cashing
 eval "$(starship init zsh)"

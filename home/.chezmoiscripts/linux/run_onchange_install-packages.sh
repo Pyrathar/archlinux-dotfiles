@@ -38,7 +38,7 @@ DEVELOPER_TOOLS=(
     "npm"
     "neovim"
     "onefetch"
-    "rtx-bin"
+    "mise"
     "python-pipx"
 )
 
