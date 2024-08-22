@@ -25,7 +25,7 @@ BASE_TOOLS=(
 
 declare -a CLOUD_TOOLS
 CLOUD_TOOLS=(
-    "aws-cli-v2"
+    "azure-cli-bin"
     "terraform"
     "pulumi"
     "kubectl-bin"
